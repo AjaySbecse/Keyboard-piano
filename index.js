@@ -9,6 +9,7 @@ var kElement = document.getElementById('k')
 var lElement = document.getElementById('l')
 
 var aMusicElement = new Audio('/music/boom.wav');
+console.log(aMusicElement);
 var sMusicElement = new Audio('/music/clap.wav')
 var dMusicElement = new Audio('/music/hihat.wav')
 var fMusicElement = new Audio('/music/kick.wav')
