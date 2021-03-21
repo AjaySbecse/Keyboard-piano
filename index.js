@@ -8,15 +8,15 @@ var jElement = document.getElementById('j')
 var kElement = document.getElementById('k')
 var lElement = document.getElementById('l')
 
-var aMusicElement = new Audio('/Keyboard_Piano/music/boom.wav');
-var sMusicElement = new Audio('/Keyboard_Piano/music/clap.wav')
-var dMusicElement = new Audio('/Keyboard_Piano/music/hihat.wav')
-var fMusicElement = new Audio('/Keyboard_Piano/music/kick.wav')
-var gMusicElement = new Audio('/Keyboard_Piano/music/openhat.wav')
-var hMusicElement = new Audio('/Keyboard_Piano/music/ride.wav')
-var jMusicElement = new Audio('/Keyboard_Piano/music/snare.wav')
-var kMusicElement = new Audio('/Keyboard_Piano/music/tink.wav')
-var lMusicElement = new Audio('/Keyboard_Piano/music/tom.wav')
+var aMusicElement = new Audio('/music/boom.wav');
+var sMusicElement = new Audio('/music/clap.wav')
+var dMusicElement = new Audio('/music/hihat.wav')
+var fMusicElement = new Audio('/music/kick.wav')
+var gMusicElement = new Audio('/music/openhat.wav')
+var hMusicElement = new Audio('/music/ride.wav')
+var jMusicElement = new Audio('/music/snare.wav')
+var kMusicElement = new Audio('/music/tink.wav')
+var lMusicElement = new Audio('/music/tom.wav')
 
 document.body.addEventListener('keydown',function(e){
     var keycode = e.keyCode;
